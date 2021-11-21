@@ -2,9 +2,9 @@
 
 set -e
 
-INSTALL_DIR="$HOME/.fnm"
-RELEASE="latest"
-OS="$(uname -s)"
+set INSTALL_DIR="$HOME/.fnm"
+set RELEASE="latest"
+set OS="$(uname -s)"
 
 # Parse Flags
 parse_args() {
